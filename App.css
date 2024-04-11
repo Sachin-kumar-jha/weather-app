@@ -1,7 +1,7 @@
 body{
-    background-image: url("https://img.freepik.com/free-photo/clouded-blue-sky-with-copy-space-background_23-2148282550.jpg?size=626&ext=jpg&ga=GA1.1.226284843.1687208282&semt=ais");
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-color:rgba(160, 224, 249,0.5);
   
-   
+    background-repeat:repeat;
+
+
 }
