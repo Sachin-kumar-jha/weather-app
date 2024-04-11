@@ -1,6 +1,6 @@
 import Weatherapp from "./Weatherapp"
 function App() {
-  
+ 
   return (
     <>
 <Weatherapp/>

@@ -16,7 +16,6 @@ export default function weatherApp(){
     }
     return(
         <div className="Weather">
-            <h3 style={{fontWeight:5}}>Weather App By Sachin Jha</h3>
             <SearchBox updateInfo={initializeInfo}/>
             <InfoBox Info={WeatherInfo}/>
         </div>

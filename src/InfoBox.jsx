@@ -13,7 +13,7 @@ return (
 <div className='Info'>
   <h2>Weather Information:{Info.city}</h2>
     <div className='card'>
-<Card sx={{ maxWidth: 345 }}>
+<Card sx={{ maxWidth: 345,  boxShadow:5 ,  backgroundColor:"transparent" }}>
       <CardMedia
         sx={{ height: 200 }}
         image={Info.temp >20 ?import.meta.env.VITE_HOT_URL :Info.tempMin<18?import.meta.env.VITE_COLD_URL:Info.humidity > 20? import.meta.env.VITE_RAINY_URL:""}
